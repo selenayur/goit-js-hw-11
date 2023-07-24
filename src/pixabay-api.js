@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = 'https://pixabay.com/api';
+const BASE_URL = 'https://pixabay.com/api/';
 export const imagesOnPage = 40;
 
 export async function getImages( currentPage, userInfo ) {
@@ -14,3 +14,5 @@ export async function getImages( currentPage, userInfo ) {
     }
   })
 }
+
+
